@@ -1,0 +1,29 @@
+# pass or fail
+sno = int(input('enter number:'))
+sname = input('enter name:')
+sgroup = input('enter group:')
+s1 = int(input('enter maths marks:'))
+s2 = int(input('enter chemistry marks:'))
+s3 = int(input('enter computer science marks:'))
+s4 = int(input('enter telugu marks:'))
+s5 = int(input('enter english marks:'))
+s6 = int(input('enter sanskrit marks:'))
+
+if s1>=32 and s2>=32 and s3>=32 and s4>=32 and s5>=32 and s6>=32:
+   print('pass')
+else:
+   print('fail
+   
+   OUTPUT:
+enter number:31
+enter name:pavan
+enter group:MCCS
+enter maths marks:98
+enter chemistry marks:97
+enter computer science marks:98
+enter telugu marks:97
+enter english marks:98
+enter sanskrit marks:97
+pass
+
+   
